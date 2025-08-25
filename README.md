@@ -46,3 +46,11 @@ product-ordering-app/
   ```
 
 3. Access services via the API Gateway endpoint.
+
+## Learning Objectives
+
+* Understand microservices architecture with Spring Boot.
+
+* Learn how to build and run independent services.
+
+* Explore service communication through an API Gateway.
