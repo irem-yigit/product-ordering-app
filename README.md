@@ -12,7 +12,7 @@ This project is designed as a learning/demo application to showcase the fundamen
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 - Java 17  
 - Spring Boot  
 - Spring Cloud (API Gateway, Service Discovery, etc.)  
@@ -21,5 +21,28 @@ This project is designed as a learning/demo application to showcase the fundamen
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+```
+product-ordering-app/
+  ├── api-gateway/
+  ├── product-service/
+  ├── transaction-service/
+  └── README.md
+```
 
+
+---
+
+## Getting Started
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/product-ordering-app.git
+   ```
+
+2. Navigate into each service and run with Maven:
+
+  ```
+    mvn spring-boot:run 
+  ```
+
+3. Access services via the API Gateway endpoint.
